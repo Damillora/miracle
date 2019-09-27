@@ -44,7 +44,15 @@
                     </li>
                     <li>
                         <p><a href="https://shinycolors.idolmaster.jp">THE IDOLM@STER: Shiny Colors</a></p>
-                        <p>ID: </p>
+                        <p>ID: ePmtJyTwzn</p>
+                    </li>
+                    <li>
+                        <p><a href="https://keyahina-unisonair.com/">UNI'S ON AIR</a></p>
+                        <p>ID: y2medy4d</p>
+                    </li>
+                    <li>
+                        <p><a href="https://lovelive-as.bushimo.jp/">Love Live ! School idol festival ALL STARS</a></p>
+                        <p>ID: (soon)</p>
                     </li>
                     <!--
                     <li>
