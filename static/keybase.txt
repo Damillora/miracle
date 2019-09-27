@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/damillora
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nanao.moe
+  * I am damillora (https://keybase.io/damillora) on keybase.
+  * I have a public key with fingerprint A4A9 19D2 B8C7 517E 0869  C73C 4690 7968 141E 7654
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010156e564193b5f4e9b416af655fa91a631f534b49ef51da2aa31f214e92e25f6a30a",
+      "fingerprint": "a4a919d2b8c7517e0869c73c46907968141e7654",
+      "host": "keybase.io",
+      "key_id": "46907968141e7654",
+      "kid": "010156e564193b5f4e9b416af655fa91a631f534b49ef51da2aa31f214e92e25f6a30a",
+      "uid": "c8acd919e656b29d93aacd4022415019",
+      "username": "damillora"
+    },
+    "service": {
+      "hostname": "nanao.moe",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1555344709,
+  "expire_in": 157680000,
+  "prev": "2ba84d13510d3d4782555c119b33f7af624ed298826198f2684637237663f186",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkltIFFEcxnfbxM1uBlYUlDUFFYjMuc7MVoSiRhFYFhSlrGdmzqxT68y2O66Z
+GiEa2EMISdGNyooKuxBd3yqwJKQLFRH0EBVdDIswEbOyzki99dh5Gc7H7/vm+/85
+bRNDgXCwpK2uKmd2el2wp1cPlF85X1ov6a5ZJ0XqpS189MPjJk950S22KUUkGciA
+UE4oBhrSiYW5pmNAmUUJsZgGGEXAIgjrWOMWASaDjAkFAgFCDolFGZKZlCdZthPj
+yUTSdjwRy7DwaibUVUMhQOGySjVDQQammqxoVAUYcIUSLIxVbsp3iHI6S/F82xWa
+uERH6/2D/8+9a0bjDJUZpmjMKaE61EwNMSFgGUIMiAw0H0zxpMOquaBNVm3H426S
+SY15kpDTtsH9zfqj/EEc5jA3v9rlwplIup5ruHEhV3leIhXxbV5dwudquR79kxDV
+bccUWxSONE+mbNeRIkCQhmf7kYAQMQ9WZC1P4tsSdpJHbZ8gClVlcfz/8LSIhDpT
+sQkQWQ9kE5lYUaGwGgBoOkKWIlYEMTehpqqQAk21IFUxRQpECqXIAiqV/KG2Oq4U
+gYooymIiNGXHHObVJLnUmNUaRGMDwXBg1rS5Y0+enfH4RveaHWG7e8nfp5cxxn93
+gaxx2X+VB58zfxVdPpdoC2XZM8Mjm2JT0MfsBaUHu666tU+b8uNSTR/njRcbnqyp
+eHRgYJt23OkeXtQa2z/h2dk3me+Ojz/y5X1D+eKhlq2FwyWhzk/7ep7vmwQyg9dy
+pZ284zGBgxXbd50oMD9c7pnxfagS9aNl7oviire5C3eXDqDKAetVemjD9j49vvRh
+7dvWEbb3dlOot+xM/6sVvdPnLKr9mf1y3uoLN+eT8e1Fxd8KO6dUjbt74PqxsvWn
+JvV2XGpsLzi02Wv+peTMC9Gvkec/dqxdWET3zI+uCle2vjjx8vTG+nddR3G0YepO
+u7zj1uR73p3Xg90PMvpKcsOHMw41/1y+Mv9+S+fIbw==
+=bI6V
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/damillora
+
+==================================================================
