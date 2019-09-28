@@ -145,6 +145,39 @@ h2 {
         font-size: 8vw;
     }
 }
+@media only screen and (min-aspect-ratio: 5/5) and (max-aspect-ratio: 8/5) {
+    .lily {
+        font-size: 5vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 300;
+    }
+    .yuriko {
+        margin-top: 0px;
+        font-size: 10vw;
+        margin-bottom: 5px;
+    }
+
+    .yuriko-sub {
+        margin-top: 0px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        font-size: 5.6vw;
+    }
+    p {
+        color: #ffffff;
+        font-size: 3.3vw;
+    }
+    h1 {
+        color: #c7b83c;
+        font-size: 6.7vw;
+        font-weight: 500;
+    }
+    h2 {
+        color: #ffffff;
+        font-size: 5.6vw;
+    }
+}
 @media only screen and (max-aspect-ratio: 8/5) and (max-width: 479px) {
     .header {
         margin-left: 0px;
