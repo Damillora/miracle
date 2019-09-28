@@ -3,9 +3,9 @@
 <h1 class="title">Game Profile</h1>
             <p>I play arcade and mobile games mostly, not all are recorded / streamed.</p>
             <p>My most frequently played genre is rhythm games, but sometimes I try other genres too</p>
-            <h2 class="sub">Game IDs</h2>
+            <h2>Game IDs</h2>
             <p>
-                <ul class="games-list">
+                <ul>
                     <li>
                         <p><a href="https://p.eagate.573.jp/game/sdvx/v/">SOUND VOLTEX VIVID WAVE</a></p>
                         <p>ID: SV-6457-6694</p>

@@ -16,11 +16,8 @@
                     <p>
                         <nuxt-link to="/about">about</nuxt-link>&nbsp;|&nbsp;
                         <nuxt-link to="/games">game profile</nuxt-link>&nbsp;|&nbsp;
+                        <nuxt-link to="/sns">social media</nuxt-link>&nbsp;|&nbsp;
                         <a href="https://nanao.moe/blog">blog</a>
-                    </p>
-                    <p>SNS:&nbsp;
-                        <a href="https://nanao.moe/twitter">twitter</a>&nbsp;|&nbsp;
-                        <a href="https://nanao.moe/fediverse">fediverse</a>
                     </p>
                 </div>
             </div>

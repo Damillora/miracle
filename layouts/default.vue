@@ -81,7 +81,8 @@ h1 {
 }
 h2 {
     color: #ffffff;
-    font-size: 3vw;
+    font-size: 2vw;
+    font-weight: 300;
 }
 @media only screen and (max-aspect-ratio: 8/5) {
     body {
@@ -142,7 +143,8 @@ h2 {
     }
     h2 {
         color: #ffffff;
-        font-size: 8vw;
+        font-size: 4.6vw;
+        font-weight: 300;
     }
 }
 @media only screen and (min-aspect-ratio: 5/5) and (max-aspect-ratio: 8/5) {
@@ -175,7 +177,8 @@ h2 {
     }
     h2 {
         color: #ffffff;
-        font-size: 5.6vw;
+        font-size: 3.5vw;
+        font-weight: 300;
     }
 }
 @media only screen and (max-aspect-ratio: 8/5) and (max-width: 479px) {
@@ -243,19 +246,13 @@ a:hover{
     margin-bottom: 5px;
 }
 
-.sub {
-    margin-top: 0px;
-    font-weight: 300;
-    margin-bottom: 0px;
-}
-
 .title {
     margin-bottom: 10px;
 }
-.games-list > li {
+ul > li {
     font-size: 1.6vw;
 }
-.games-list > li > p {
+ul > li > p {
     margin-top: 0px;
     margin-bottom: 5px;
 }
