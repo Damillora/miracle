@@ -31,7 +31,7 @@ body {
 .gradient {
     display: none;
 }
-@media only screen and (max-aspect-ratio: 9/5) {
+@media only screen and (max-aspect-ratio: 8/5) {
     body {
         margin-left: 0px;
         margin-right: 0px;
