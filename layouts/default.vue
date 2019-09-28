@@ -8,8 +8,27 @@
     <div class="content-container">
       <nuxt />
     </div>
+    <div class="smol-yurik hvr-float">
+      <img src="/yuriko-smol.png" @click="yurikosound"></img>
+    </div>
   </div>
 </template>
+
+<script>
+import {Howl, Howler} from 'howler';
+
+export default {
+  methods: {
+    yurikosound() {
+      var sound = new Howl({
+        src: require("../static/yuriko.ogg"),
+        volume: 0.3
+      });
+      sound.play();
+    }
+  }
+}
+</script>
 
 <style>
 body {
@@ -84,6 +103,34 @@ h2 {
     font-size: 2vw;
     font-weight: 300;
 }
+
+.smol-yurik {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.smol-yurik > img {
+    height: 20vh;
+}
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
 @media only screen and (max-aspect-ratio: 8/5) {
     body {
         margin-left: 0px;
@@ -146,6 +193,9 @@ h2 {
         font-size: 4.6vw;
         font-weight: 300;
     }
+    .smol-yurik {
+        display: none;
+    }
 }
 @media only screen and (min-aspect-ratio: 5/5) and (max-aspect-ratio: 8/5) {
     .lily {
@@ -171,6 +221,10 @@ h2 {
         font-size: 3.3vw;
     }
     h1 {
+.smol-yurik {
+    margin-bottom: 0px;
+}
+
         color: #c7b83c;
         font-size: 6.7vw;
         font-weight: 500;
@@ -232,15 +286,14 @@ h2 {
 a {
     text-decoration: none;
     color: #c7b83c;
+.smol-yurik {
+    margin-bottom: 0px;
+}
+
 }
 a:hover{
     text-decoration: underline;
 }
-.yuriko-smol {
-    display: block;
-    margin-bottom: 0px;
-}
-
 .name {
     margin-top: 0px;
     margin-bottom: 5px;

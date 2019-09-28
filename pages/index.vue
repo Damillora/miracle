@@ -10,7 +10,6 @@
 
                 </div>
                 <div class="row">
-                    <img class="yuriko-smol" src="/yuriko-smol.png"></img>
                     <h1 class="primary name">Damillora</h1>
                     <h2 class="sub">an idol fan with a strange music to it</h2>
                     <p>
