@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h1>404</h1>
-    <p>oops!</p>
+    <h1>{{ error.statusCode }}</h1>
+    <p>{{ error.message }}</p>
     <p>
       <nuxt-link to="/">home</nuxt-link>
     </p>
@@ -11,6 +11,7 @@
 <script>
 
 export default {
+  props: ['error'],
   components: {
 
   },
