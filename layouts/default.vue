@@ -13,14 +13,14 @@
 
 <style>
 body {
-    background: linear-gradient(to right, #f4f4ff 45% ,transparent 65%), url("./yuriko.jpg") no-repeat;
+    background: linear-gradient(to right, #060600 45% ,transparent 65%), url("./yuriko.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
 }
 .content-container {
     margin-top: 5vh;
-    margin-left: 5vh;
+    margin-left: 2.5%;
     margin-right: 60%;
     word-wrap: break-word;
     font-family: 'Exo 2', sans-serif;
@@ -36,7 +36,7 @@ body {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
-        background: #f4f4ff;
+        background: #060600;
     }
     .content-container {
         margin-right: 0%;
@@ -58,7 +58,7 @@ body {
         left: 0%;
         width: 100%;
         height: 25vh;
-        background: linear-gradient(to top,#f4f4ff 25%,transparent 100%);
+        background: linear-gradient(to top,#060600 25%,transparent 100%);
     }
 }
 
@@ -72,11 +72,13 @@ body {
 }
 
 h1 {
-    font-size: 3.2rem;
+    color: #c7b83c;
+    font-size: 3.2vw;
     font-weight: 500;
 }
 h2 {
-    font-size: 3rem;
+    color: #ffffff;
+    font-size: 3vw;
 }
 a {
     text-decoration: none;
@@ -86,14 +88,14 @@ a:hover{
     text-decoration: underline;
 }
 .lily {
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 300;
 }
 .yuriko {
     margin-top: 0px;
-    font-size: 5rem;
+    font-size: 5vw;
     margin-bottom: 5px;
 }
 
@@ -101,7 +103,7 @@ a:hover{
     margin-top: 0px;
     font-weight: 300;
     margin-bottom: 0px;
-    font-size: 2.6rem;
+    font-size: 2.6vw;
 }
 .yuriko-smol {
     display: block;
@@ -114,7 +116,7 @@ a:hover{
 }
 
 .sub {
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     margin-top: 0px;
     font-weight: 300;
     margin-bottom: 0px;
@@ -124,10 +126,11 @@ a:hover{
     margin-bottom: 10px;
 }
 p {
-    font-size: 1.3rem;
+    color: #ffffff;
+    font-size: 1.3vw;
 }
 .games-list > li {
-    font-size: 1.6rem;
+    font-size: 1.6vw;
 }
 .games-list > li > p {
     margin-top: 0px;
