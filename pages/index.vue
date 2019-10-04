@@ -2,9 +2,9 @@
   <div class="container">
             <div class="col fill">
                 <div class="row">
-                    <h3 class="primary japanese lily">リリィ・ナイト</h3>
-                    <h1 class="primary japanese yuriko">七尾百合子</h1>
-                    <h2 class="primary yuriko-sub">Yuriko Nanao</h2>
+                    <h3 class="primary japanese lily">{{ subheader }}</h3>
+                    <h1 class="primary japanese yuriko">{{ header }}</h1>
+                    <h2 class="primary yuriko-sub">{{ romaji }}</h2>
                 </div>
                 <div class="expand">
 
@@ -28,6 +28,17 @@
 export default {
   components: {
 
+  },
+  computed: {
+    subheader() {
+      return process.env.subheader
+    },
+    header() {
+      return process.env.header
+    },
+    romaji() {
+      return process.env.romaji
+    },
   },
   transition: {
     name: 'nanao',

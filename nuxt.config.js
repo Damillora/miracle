@@ -1,8 +1,10 @@
+require('dotenv').config()
+
 module.exports = {
   mode: 'universal',
   server: {
     host: '0.0.0.0',
-    port: 14033
+    port: process.env.PORT || 14033
   },
   /*
   ** Headers of the page
@@ -28,7 +30,13 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/themes/'+(process.env.THEME || "yuriko")+'.css'
   ],
+  env: {
+    subheader: process.env.SUBHEADER || "" ,
+    header: process.env.HEADER || "Sample Theming",
+    romaji: process.env.ROMAJI || "This demonstrates themable aspects",
+  },
   /*
   ** Plugins to load before mounting the App
   */
