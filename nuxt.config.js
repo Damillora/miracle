@@ -12,7 +12,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Damillora - nanao.moe',
+    title: 'Damillora - '+(process.env.DOMAIN || "nanao.moe"),
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
