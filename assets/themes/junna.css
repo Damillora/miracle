@@ -1,26 +1,26 @@
 body {
-    background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-360.jpg") no-repeat calc(0% + 370px) 0%;
+    background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-360.jpg") no-repeat calc(0% + 300px) 0%;
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
 }
 @media only screen and (max-height: 479px) {
     body {
-        background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-360.jpg") no-repeat calc(0% + 185px) 0%;
+        background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-360.jpg") no-repeat calc(0% + 150px) 0%;
         background-size: cover;
         background-attachment: fixed;
     }
 }
 @media only screen and (max-height: 899px) {
     body {
-        background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-720.jpg") no-repeat calc(0% + 370px) 0%;
+        background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-720.jpg") no-repeat calc(0% + 300px) 0%;
         background-size: cover;
         background-attachment: fixed;
     }
 }
 @media only screen and (min-height: 900px) {
     body {
-        background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-1080.jpg") no-repeat calc(0% + 555px) 0%;
+        background: linear-gradient(to right, #060600 45% ,transparent 65%), url("/junna-1080.jpg") no-repeat calc(0% + 450px) 0%;
         background-size: cover;
         background-attachment: fixed;
     }
