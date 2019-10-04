@@ -1,4 +1,6 @@
-require('dotenv').config()
+require('dotenv').config({ path: process.env.THEME ? ".env."+process.env.THEME : ".env"})
+
+console.log("We are running "+process.env.THEME+" theme");
 
 module.exports = {
   mode: 'universal',
@@ -51,7 +53,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/dotenv',
+    ['@nuxtjs/dotenv', { filename: process.env.THEME ? ".env."+process.env.THEME : ".env" }],
   ],
   /*
   ** Build configuration
@@ -72,5 +74,6 @@ module.exports = {
   },
   serverMiddleware: [
 
-  ]
+  ],
+  buildDir: '.nuxt.'+(process.env.THEME || "yuriko")
 }
