@@ -16,7 +16,7 @@
                 </li>
                 <li>
                   <p>Fediverse:</p>
-                  <p><a href="/fediverse">Damillora@misskey.nanao.moe</a></p>
+                  <p><a href="/fediverse">Damillora@misskey.junna.moe</a></p>
                 </li>
               </ul>
             </p>
