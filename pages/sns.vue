@@ -14,10 +14,6 @@
                   <p><a href="/twitter">Damillora</a></p>
                   <p><a href="/twittermitsumine">mitsumine_dmi</a></p>
                 </li>
-                <li>
-                  <p>Fediverse:</p>
-                  <p><a href="/fediverse">Damillora@misskey.junna.moe</a></p>
-                </li>
               </ul>
             </p>
 
