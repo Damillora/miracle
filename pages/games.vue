@@ -51,6 +51,10 @@
                         <p>ID: y2medy4d</p>
                     </li>
                     <li>
+                        <p><a href="https://www.cue-liber.jp/">CUE!</a></p>
+                        <p>ID: 37132287893</p>
+                    </li>
+                    <li>
                         <p><a href="https://lovelive-as.bushimo.jp/">Love Live ! School idol festival ALL STARS</a></p>
                         <p>ID: (soon)</p>
                     </li>
