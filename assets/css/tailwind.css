@@ -10,29 +10,29 @@ html {
     @apply font-sans;
 }
 .main {
-    background-image: url('~assets/images/bg-sm.png');
+    background-image: url('~assets/images/bg-sm.jpg');
     background-size: cover;
     background-position: center;
     @apply min-h-screen;
 }
 @screen sm {
     .main {
-        background-image: url('~assets/images/bg-md.png');
+        background-image: url('~assets/images/bg-md.jpg');
     }
 }
 @screen md {
     .main {
-        background-image: url('~assets/images/bg-lg.png');
+        background-image: url('~assets/images/bg-lg.jpg');
     }
 }
 @screen lg {
     .main {
-        background-image: url('~assets/images/bg-xl.png');
+        background-image: url('~assets/images/bg-xl.jpg');
     }
 }
 @screen xl {
     .main {
-        background-image: url('~assets/images/bg-xxl.png');
+        background-image: url('~assets/images/bg-xxl.jpg');
     }
 }
 .card {
