@@ -1,7 +1,5 @@
 require('dotenv').config({ path: process.env.THEME ? ".env."+process.env.THEME : ".env"})
 
-console.log("We are running "+process.env.THEME+" theme");
-
 module.exports = {
   mode: 'universal',
   server: {
@@ -12,7 +10,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Damillora - '+(process.env.DOMAIN || "nanao.moe"),
+    title: 'Damillora - nanao.moe',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -32,7 +30,6 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '@/assets/themes/'+(process.env.THEME || "yuriko")+'.css'
   ],
   env: {
     subheader: process.env.SUBHEADER || "" ,
@@ -48,12 +45,13 @@ module.exports = {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/tailwindcss',
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
-    ['@nuxtjs/dotenv', { filename: process.env.THEME ? ".env."+process.env.THEME : ".env" }],
+    ['@nuxtjs/dotenv' ],
   ],
   /*
   ** Build configuration
@@ -75,5 +73,4 @@ module.exports = {
   serverMiddleware: [
 
   ],
-  buildDir: '.nuxt.'+(process.env.THEME || "yuriko")
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="page">
             <h1 class="title">Social Media</h1>
             <p>I maintain a presence at a number of social media, be sure to follow me there!</p> 
             <p>
@@ -17,9 +17,6 @@
               </ul>
             </p>
 
-            <div class="back">
-                <nuxt-link to="/">back</nuxt-link>
-            </div>
   </div>
 </template>
 
@@ -29,9 +26,6 @@ export default {
   components: {
 
   },
-  transition: {
-    name: 'nanao',
-  }
 }
 </script>
 

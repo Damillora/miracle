@@ -1,22 +1,26 @@
 <template>
-  <div>
-    <div class="header">
-      <div class="gradient">
-                
-      </div>
-    </div>
-    <div class="content-container">
+  <div class="main">
+    <Header/>
+    <div class="content">
       <nuxt />
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 // import FloatingYuriko from '~/components/FloatingYuriko'
+import Footer from '~/components/Footer'
+import Header from '~/components/Header'
 export default {
   components: {
 //    FloatingYuriko
+    Footer,
+    Header,
   }
 }
 </script>
 
+<style>
+
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="page">
 <h1 class="title">Game Profile</h1>
             <p>I play arcade and mobile games mostly, not all are recorded / streamed.</p>
             <p>My most frequently played genre is rhythm games, but sometimes I try other genres too</p>
@@ -66,9 +66,6 @@
                     -->
                 </ul>
             </p>
-            <div class="back">
-                <nuxt-link to="/">back</nuxt-link>
-            </div>
   </div>
 </template>
 
@@ -78,9 +75,6 @@ export default {
   components: {
 
   },
-  transition: {
-    name: 'nanao',
-  }
 
 }
 </script>

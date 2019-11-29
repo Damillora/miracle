@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,500&display=swap');
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+html {
+    @apply font-sans;
+}
+.main {
+    background-image: url('~assets/images/bg-sm.png');
+    background-size: cover;
+    background-position: center;
+    @apply min-h-screen;
+}
+@screen sm {
+    .main {
+        background-image: url('~assets/images/bg-md.png');
+    }
+}
+@screen md {
+    .main {
+        background-image: url('~assets/images/bg-lg.png');
+    }
+}
+@screen lg {
+    .main {
+        background-image: url('~assets/images/bg-xl.png');
+    }
+}
+@screen xl {
+    .main {
+        background-image: url('~assets/images/bg-xxl.png');
+    }
+}
+.card {
+    @apply text-white py-2 px-2;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.content {
+    @apply relative overflow-y-auto;
+    height: calc(100vh - 7rem);
+}
+
+.page {
+    @apply text-white py-2 px-2 w-full right-0;
+    background-color: rgba(0,0,0,0.3);
+    min-height: calc(100vh - 7rem);
+}
+@screen sm {
+    .page {
+        @apply w-3/4;
+    }
+}
+@screen md {
+    .page {
+        @apply w-3/5;
+    }
+}
+@screen lg {
+    .page {
+        @apply w-1/2;
+    }
+}
+@screen xl {
+    .page {
+        @apply w-2/5;
+    }
+}
+
+.page h1 {
+    @apply text-4xl;
+}
+.page h2 {
+    @apply text-3xl;
+}
+
+.page ul {
+    @apply list-disc;
+}
+
+.page a {
+    @apply text-yuika-blue-200;
+}
+

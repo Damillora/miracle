@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="page">
     <h1>404</h1>
     <p>oops!</p>
     <p>
@@ -13,9 +13,6 @@
 export default {
   components: {
 
-  },
-  transition: {
-    name: 'nanao',
   },
   middleware: 'shorten',
 }

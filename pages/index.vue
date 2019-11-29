@@ -1,23 +1,10 @@
-<template>
-  <div class="container">
-            <div class="col fill">
-                <div class="row">
-                    <h3 class="primary japanese lily">{{ subheader }}</h3>
-                    <h1 class="primary japanese yuriko">{{ header }}</h1>
-                    <h2 class="primary yuriko-sub">{{ romaji }}</h2>
-                </div>
-                <div class="expand">
 
-                </div>
-                <div class="row">
-                    <h1 class="primary name">Damillora</h1>
-                    <h2 class="sub">an idol fan with a strange music to it</h2>
-                    <p>
-                        <nuxt-link to="/about">about</nuxt-link>&nbsp;|&nbsp;
-                        <nuxt-link to="/games">game profile</nuxt-link>&nbsp;|&nbsp;
-                        <nuxt-link to="/sns">social media</nuxt-link>&nbsp;|&nbsp;
-                        <a href="https://nanao.moe/blog">blog</a>
-                    </p>
+<template>
+  <div class="card absolute right-0 bottom-0 w-full sm:w-2/3 md:w-1/2 lg:w-2/5 xl:w-1/3">
+            <div class="flex flex-col">
+                <div class="flex flex-col">
+                    <h1 class="text-4xl py-1">Damillora</h1>
+                    <h2 class="text-xl py-1">an idol fan with a strange music to it</h2>
                 </div>
             </div>
   </div>
@@ -29,20 +16,6 @@ export default {
   components: {
 
   },
-  computed: {
-    subheader() {
-      return process.env.subheader
-    },
-    header() {
-      return process.env.header
-    },
-    romaji() {
-      return process.env.romaji
-    },
-  },
-  transition: {
-    name: 'nanao',
-  }
 }
 </script>
 
