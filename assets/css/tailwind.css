@@ -36,7 +36,7 @@ html {
     }
 }
 .card {
-    @apply text-white py-2 px-2;
+    @apply text-white py-4 px-4;
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -46,7 +46,7 @@ html {
 }
 
 .page {
-    @apply text-white py-2 px-2 w-full right-0;
+    @apply text-white py-4 px-4 w-full right-0;
     background-color: rgba(0,0,0,0.3);
     min-height: calc(100vh - 7rem);
 }
@@ -81,7 +81,9 @@ html {
 .page ul {
     @apply list-disc;
 }
-
+.page ul li {
+    @apply ml-4;
+}
 .page a {
     @apply text-yuika-blue-200;
 }
