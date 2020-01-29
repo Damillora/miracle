@@ -1,11 +1,20 @@
 <template>
 <div>
   <footer>
-      <div class="footer-left">
-          <h1>(C) 2019 Damillora</h1>
+      <div class="footer-nav">
+          <nuxt-link to="/about"><p class="header-link">about</p></nuxt-link>
       </div>
+      <div class="footer-nav">
+          <nuxt-link to="/games"><p class="header-link">game profile</p></nuxt-link>
+      </div>
+      <div class="footer-nav">
+          <nuxt-link to="/sns"><p class="header-link">social media</p></nuxt-link>
+      </div>
+      <div class="footer-nav">
+          <a href="//blog.nanao.moe"><p class="header-link">blog</p></a>
+      </div>
+
   </footer>
-  <div class="h-12"></div>
 </div>
 </template>
 
@@ -17,13 +26,9 @@ export default {
 
 <style>
 footer {
-    @apply h-12 bottom-0 w-full z-10 flex flex-row justify-start items-center px-4 fixed;
-    background-color: rgba(0,0,0,0.3);
+    @apply h-16 w-full flex flex-row justify-start items-center;
 }
-footer h1 {
-    @apply text-white;
-}
-.footer-left {
-    
+.footer-nav {
+    @apply w-1/4 flex flex-row justify-center items-end;
 }
 </style>

@@ -1,10 +1,12 @@
 
 <template>
-  <div class="card absolute right-0 bottom-0 w-full sm:w-2/3 md:w-1/2 lg:w-2/5 xl:w-1/3">
+  <div>
             <div class="flex flex-col">
                 <div class="flex flex-col">
-                    <h1 class="text-4xl py-1">Damillora</h1>
-                    <h2 class="text-xl py-1">an idol fan with a strange music to it</h2>
+                    <h1 class="text-xl py-1">Damillora</h1>
+                    <p class="text-lg py-1">Web developer, reviewer and content creator</p>
+                    <p class="text-lg py-1">三峰結華 七尾百合子</p>
+                    <p class="text-lg py-1">EN OK, JP read only</p>
                 </div>
             </div>
   </div>

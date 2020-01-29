@@ -1,10 +1,14 @@
 <template>
-  <div class="main">
-    <Header/>
-    <div class="content">
-      <nuxt />
+  <div>
+    <div class="main">
+      <div class="card">
+        <Header />
+        <div class="content">
+          <nuxt />
+        </div>
+        <Footer />
+      </div>
     </div>
-    <Footer/>
   </div>
 </template>
 
@@ -22,5 +26,24 @@ export default {
 </script>
 
 <style>
+.main {
+    height: 100vh;
+}
+.card {
+    @apply text-white;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+@screen md {
+    .main {
+        padding: 5% 5%;
+    }
+}
 
+.content {
+    @apply px-8 overflow-y-auto;
+    height: calc(100% - 8rem);
+}
 </style>
+

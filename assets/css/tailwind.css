@@ -9,82 +9,47 @@
 html {
     @apply font-sans;
 }
-.main {
+body {
     background-image: url('~assets/images/bg-sm.jpg');
     background-size: cover;
     background-position: center;
     @apply min-h-screen;
 }
 @screen sm {
-    .main {
+    body {
         background-image: url('~assets/images/bg-md.jpg');
     }
 }
 @screen md {
-    .main {
+    body {
         background-image: url('~assets/images/bg-lg.jpg');
     }
 }
 @screen lg {
-    .main {
+    body {
         background-image: url('~assets/images/bg-xl.jpg');
     }
 }
 @screen xl {
-    .main {
+    body {
         background-image: url('~assets/images/bg-xxl.jpg');
     }
 }
-.card {
-    @apply text-white py-4 px-4;
-    background-color: rgba(0,0,0,0.3);
-}
 
-.content {
-    @apply relative overflow-y-auto;
-    height: calc(100vh - 7rem);
-}
-
-.page {
-    @apply text-white py-4 px-4 w-full right-0;
-    background-color: rgba(0,0,0,0.3);
-    min-height: calc(100vh - 7rem);
-}
-@screen sm {
-    .page {
-        @apply w-3/4;
-    }
-}
-@screen md {
-    .page {
-        @apply w-3/5;
-    }
-}
-@screen lg {
-    .page {
-        @apply w-1/2;
-    }
-}
-@screen xl {
-    .page {
-        @apply w-2/5;
-    }
-}
-
-.page h1 {
+.content h1 {
     @apply text-4xl;
 }
-.page h2 {
+.content h2 {
     @apply text-3xl;
 }
 
-.page ul {
+.content ul {
     @apply list-disc;
 }
-.page ul li {
+.content ul li {
     @apply ml-4;
 }
-.page a {
+.content a {
     @apply text-yuika-blue-200;
 }
 
