@@ -7,12 +7,10 @@
                 <li>
                   <p>YouTube:</p>
                   <p><a href="/channel">Damillora</a></p>
-                  <p><a href="/ArchivesOfAYurikoP">Archives of a YurikoP</a></p>
                 </li>
                 <li>
                   <p>Twitter:</p>
                   <p><a href="/twitter">Damillora</a></p>
-                  <p><a href="/twittermitsumine">mitsumine_dmi</a></p>
                 </li>
               </ul>
             </p>

@@ -8,59 +8,78 @@
                 <ul>
                     <li>
                         <p><a href="https://p.eagate.573.jp/game/sdvx/v/">SOUND VOLTEX VIVID WAVE</a></p>
+                        <p>Player Name: YUIKA283</p>
                         <p>ID: SV-6457-6694</p>
                     </li>
                     <li>
+                        <p><a href="https://maimai.sega.com">maimai DX</a></p>
+                        <p>Player Name: YUIKA283</p>
+                        <p>ID: 6027059823123</p>
+                    </li>
+                    <li>
                         <p><a href="https://millionlive.idolmaster.jp/theaterdays/">THE IDOLM@STER Million Live: Theater Days</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: CGTEDUQ4</p>
                     </li>
                     <li>
                         <p><a href="https://arcaea.lowiro.com">Arcaea</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: 264202217</p>
                     </li>
                     <li>
                         <p><a href="http://t7s.jp">Tokyo 7th Sisters</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: M2mXkWk</p>
                     </li>
                     <li>
                         <p><a href="https://bang-dream.bushimo.jp/">BanG Dream! Girls Band Party (JP)</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: 106205253</p>
                     </li>
                     <li>
                         <p><a href="https://lovelive-sif.bushimo.jp/">Love Live! School Idol Festival (JP)</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: 755897396</p>
                     </li>
                     <li>
                         <p><a href="https://www.en.revuestarlight-relive.com/">Revue Starlight Re LIVE (EN)</a></p>
+                        <p>Player Name: [RS]Damillora</p>
                         <p>ID: 2490812618</p>
                     </li>
                     <li>
                         <p><a href="https://shadowverse.com/">Shadowverse</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: 778908673</p>
                     </li>
                     <li>
                         <p><a href="https://nogikoi.jp/">Nogikoi</a></p>
+                        <p>Player Name: -</p>
                         <p>ID: 1673068678</p>
                     </li>
                     <li>
                         <p><a href="https://shinycolors.idolmaster.jp">THE IDOLM@STER: Shiny Colors</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: ePmtJyTwzn</p>
                     </li>
                     <li>
                         <p><a href="https://keyahina-unisonair.com/">UNI'S ON AIR</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: y2medy4d</p>
                     </li>
                     <li>
                         <p><a href="https://www.cue-liber.jp/">CUE!</a></p>
+                        <p>Player Name: Damillora</p>
                         <p>ID: 37132287893</p>
                     </li>
                     <li>
                         <p><a href="https://lovelive-as.bushimo.jp/">Love Live ! School idol festival ALL STARS</a></p>
+                        <p>Player Name: -</p>
                         <p>ID: (soon)</p>
                     </li>
                     <!--
                     <li>
                         <p><a href=""></a></p>
+                        <p>Player Name: </p>
                         <p>ID: </p>
                     </li>
                     -->
