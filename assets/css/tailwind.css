@@ -55,3 +55,6 @@ body {
     @apply text-yuika-blue-200;
 }
 
+.content blockquote {
+   @apply border-l-4 border-white pl-8 text-gray-200;
+}
