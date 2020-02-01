@@ -20,7 +20,9 @@ export default {
   components: {
 
   },
-
+  meta: {
+    title: "Game Profile: CUE!",
+  },
 }
 </script>
 

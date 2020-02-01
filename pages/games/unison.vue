@@ -19,7 +19,9 @@ export default {
   components: {
 
   },
-
+  meta: {
+    title: "Game Profile: 欅坂46・日向坂46 UNI'S ON AIR",
+  },
 }
 </script>
 

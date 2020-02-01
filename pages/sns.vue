@@ -24,6 +24,9 @@ export default {
   components: {
 
   },
+  meta: {
+    title: 'Social Media',
+  }
 }
 </script>
 

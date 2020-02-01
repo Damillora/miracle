@@ -14,7 +14,9 @@ export default {
   components: {
 
   },
-
+  meta: {
+    title: "Game Profile: Arcaea",
+  }
 }
 </script>
 

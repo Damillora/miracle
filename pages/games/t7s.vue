@@ -13,7 +13,9 @@ export default {
   components: {
     
   },
-
+  meta: {
+    title: "Game Profile: Tokyo 7th Sisters",
+  },
 }
 </script>
 

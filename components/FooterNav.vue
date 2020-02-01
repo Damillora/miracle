@@ -6,7 +6,7 @@
     </a>
     <nuxt-link :to="link" v-else>
       <i class="material-icons md-24">{{ icon }}</i>
-      <p class="header-link">{{ text }}</p>
+      <p>{{ text }}</p>
     </nuxt-link>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
   props: [ 'link', 'text','external', 'icon' ],
   methods: {
     getCurrentClasses() {
-      if(this.link == this.$nuxt.$route.path) {
+      if(this.$nuxt.$route.path.startsWith(this.link)) {
         return ['footer-nav','selected'];     
       }
       return ['footer-nav'];

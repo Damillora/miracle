@@ -18,6 +18,9 @@ export default {
   components: {
 
   },
+  meta: {
+    title: 'Damillora',
+  }
 }
 </script>
 

@@ -1,16 +1,13 @@
 <template>
 <div>
   <header>
-      <div class="header-left">
-          <nuxt-link to="/"><p class="header-link">Damillora</p></nuxt-link>
+      <div class="header-left" v-if="needsBackButton">
+          <nuxt-link class="header-link" to="/"><i class="material-icons">arrow_back</i></nuxt-link>
       </div>
       <div class="header-middle">
+        <p class="text-lg">{{ title }}</p>
       </div>
       <div class="header-right">
-<!--          <nuxt-link to="/about"><p class="header-link">about</p></nuxt-link>
-          <nuxt-link to="/games"><p class="header-link">game profile</p></nuxt-link>
-          <nuxt-link to="/sns"><p class="header-link">social media</p></nuxt-link>
-          <a href="//blog.nanao.moe"><p class="header-link">blog</p></a> -->
       </div>
   </header>
 </div>
@@ -18,7 +15,20 @@
 
 <script>
 export default {
-
+  computed: {
+    needsBackButton() {
+      return this.$nuxt.$route.path != "/";
+    },
+    title() {
+      return this.$store.state.title;
+    }
+  },
+  methods: {
+    goBack(event) {
+      if(event) event.preventDefault();
+      this.$router.back();
+    }
+  }
 }
 </script>
 
@@ -27,15 +37,15 @@ header {
     @apply h-16 w-full z-10 flex flex-row justify-start items-center px-4;
 }
 .header-link {
-    @apply text-white text-lg mx-2;
+    @apply mx-2 h-6 w-6 cursor-pointer;
 }
 .header-left {
-    
+    @apply flex flex-row justify-start items-center h-full;
 }
 .header-middle {
-    @apply flex-grow;
+    @apply flex-grow flex flex-row justify-start items-center h-full;
 }
 .header-right {
-   @apply flex flex-row;
+   @apply flex flex-row justify-start items-center h-full;
 }
 </style>

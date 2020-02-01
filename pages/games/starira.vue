@@ -14,7 +14,9 @@ export default {
   components: {
 
   },
-
+  meta: {
+    title: "Game Profile: Revue Starlight Re LIVE (EN)",
+  }
 }
 </script>
 

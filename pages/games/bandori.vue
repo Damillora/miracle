@@ -14,7 +14,9 @@ export default {
   components: {
 
   },
-
+  meta: {
+    title: "Game Profile: BanG Dream! Girls Band Party (JP)",
+  },
 }
 </script>
 

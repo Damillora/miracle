@@ -95,7 +95,9 @@ export default {
   components: {
     GameListItem,
   },
-
+  meta: {
+    title: "Game Profile",
+  }
 }
 </script>
 
