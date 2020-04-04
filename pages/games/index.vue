@@ -76,6 +76,11 @@
                       link="/games/llsifas"
                       gameid="-"
                      />
+                    <GameListItem
+                      name="Arknights"
+                      link="/games/arknights"
+                      gameid="Damillora#0835"
+                     />
                     <!--
                     <GameListItem
                       name=""
