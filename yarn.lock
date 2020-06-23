@@ -6695,7 +6695,7 @@ postcss-modules-values@^3.0.0:
     icss-utils "^4.0.0"
     postcss "^7.0.6"
 
-postcss-nested@^4.1.1, postcss-nested@^4.2.1:
+postcss-nested@^4.1.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-4.2.1.tgz#4bc2e5b35e3b1e481ff81e23b700da7f82a8b248"
   integrity sha512-AMayXX8tS0HCp4O4lolp4ygj9wBn32DJWXvG6gCv+ZvJrEa00GUxJcJEEzMh87BIe6FrWdYkpR2cuyqHKrxmXw==
@@ -8256,13 +8256,6 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
-
-tailwindcss-transitions@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss-transitions/-/tailwindcss-transitions-2.2.0.tgz#73dd0122ce6d30575d98921fe795b8e290c96790"
-  integrity sha512-yI8nzJL8EOXdXECQDVDFBQ89yNhqYuAzltwgHEjU+0R5TZAfIfA4DEtvdVbBMmvAgYOGMhm0D/7zPfc7Wl3MSg==
-  dependencies:
-    lodash "^4.17.15"
 
 tailwindcss@^1.4.6:
   version "1.4.6"
