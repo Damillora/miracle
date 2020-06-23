@@ -1,5 +1,3 @@
-require('dotenv').config({ path: process.env.THEME ? ".env."+process.env.THEME : ".env"})
-
 module.exports = {
   mode: 'universal',
   server: {
@@ -48,7 +46,6 @@ module.exports = {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/tailwindcss',
   ],
   /*
   ** Nuxt.js modules
@@ -63,6 +60,12 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    },
     extend (config, ctx) {
       config.module.rules.push({
         test: /\.(ogg|mp3|wav|mpe?g)$/i,

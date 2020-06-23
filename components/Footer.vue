@@ -1,22 +1,22 @@
 <template>
 <div>
   <footer>
-      <FooterNav
+      <NavItem
         link="/about"
         icon="person"
         text="about"
          />
-      <FooterNav
+      <NavItem
         link="/games"
         icon="videogame_asset"
         text="game profile"
          />
-      <FooterNav
+      <NavItem
         link="/sns"
         icon="contacts"
         text="social media"
          />
-      <FooterNav
+      <NavItem
         link="//blog.nanao.moe"
         icon="rss_feed"
         text="blog"
@@ -27,22 +27,13 @@
 </template>
 
 <script>
-import FooterNav from "./FooterNav";
+import NavItem from "./NavItem";
 
 export default {
   components: {
-    FooterNav
   },
 }
 </script>
 
 <style>
-footer {
-    @apply h-16 w-full flex flex-row justify-start items-center;
-}
-@screen md {
-  .footer-nav p {
-      @apply text-base;
-  }
-}
 </style>

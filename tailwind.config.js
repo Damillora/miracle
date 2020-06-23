@@ -1,15 +1,16 @@
 module.exports = {
+  purge: {
+    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js'
+    ]
+  },
   theme: {
-    transitionProperty: {
-      'none': 'none',
-      'all': 'all',
-      'color': 'color',
-      'bg': 'background-color',
-      'border': 'border-color',
-      'colors': ['color', 'background-color', 'border-color'],
-      'opacity': 'opacity',
-      'transform': 'transform',
-    },
     extend: {
       colors: {
         'yuika-blue': {
@@ -37,7 +38,4 @@ module.exports = {
     }
   },
   variants: ['responsive', 'group-hover', 'hover', 'active' ],
-  plugins: [
-    require('tailwindcss-transitions')(),
-  ],
 }

@@ -16,24 +16,27 @@ export default {
   methods: {
     getCurrentClasses() {
       if(this.$nuxt.$route.path.startsWith(this.link)) {
-        return ['footer-nav','selected'];     
+        return ['nav-item','selected'];     
       }
-      return ['footer-nav'];
+      return ['nav-item'];
     }
   },
 }
 </script>
 <style>
-.footer-nav {
-    @apply w-1/4 transition-bg;
+.nav-item {
+  @apply text-white h-12 flex flex-row items-center transition duration-300 ease-in-out;
 }
-.footer-nav a {
-    @apply w-full h-full flex flex-col justify-end items-center py-2;
+.nav-item:hover {
+  @apply bg-yuika-blue-500
 }
-.footer-nav p {
-    @apply text-xs;
+.nav-item a {
+  @apply flex flex-row items-center h-full w-full;
 }
-.footer-nav.selected {
-    background-color: rgba(0,0,0,0.5);
+.nav-item a i {
+  @apply px-4;
+}
+.nav-item a p {
+  @apply inline-block flex-grow;
 }
 </style>

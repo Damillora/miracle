@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="main">
-      <div class="card">
-        <Header />
-        <div class="content">
+      <Header />
+      <div class="content">
+        <main>
           <nuxt />
-        </div>
+        </main>
         <Footer />
       </div>
     </div>
@@ -14,36 +14,105 @@
 
 <script>
 // import FloatingYuriko from '~/components/FloatingYuriko'
-import Footer from '~/components/Footer'
 import Header from '~/components/Header'
 export default {
   components: {
 //    FloatingYuriko
-    Footer,
     Header,
   }
 }
 </script>
 
 <style>
-.main {
-    height: 100vh;
-}
-.card {
-    @apply text-white;
-    background-color: rgba(0,0,0,0.3);
-    width: 100%;
-    height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,500&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+html {
+    @apply font-sans;
 }
 @screen md {
-    .main {
-        padding: 5% 5%;
-    }
+  .main {
+    @apply flex flex-row; 
+  }
+  .content {
+    margin-left: 25vw;
+  }
+}
+main {
+    @apply px-4 py-4;
+}
+@screen md {
+  main {
+    @apply px-8;
+  }
+}
+@screen lg {
+  main {
+    @apply px-16;
+  }
+}
+@screen xl {
+  main {
+    @apply px-32;
+  }
 }
 
-.content {
-    @apply px-8 overflow-y-auto;
-    height: calc(100% - 8rem);
+main p {
+  @apply my-4;
 }
+main h1 {
+  @apply my-4 text-4xl font-light;
+}
+main h2 {
+  @apply my-4 text-3xl font-light;
+}
+main h3 {
+  @apply my-4 text-2xl font-light;
+}
+main h4 {
+  @apply my-4 text-xl font-light;
+}
+main h5 {
+  @apply my-4 text-lg font-light;
+}
+main h6 {
+  @apply my-4 text-base font-light;
+}
+main a {
+  @apply text-yuika-blue-700;
+}
+main a:hover {
+  @apply underline;
+}
+main ul {
+  @apply list-disc;
+}
+main ul li p {
+  @apply my-0;
+}
+main ol {
+  @apply list-decimal;
+}
+main code {
+  @apply bg-gray-200 text-yuika-blue-700 whitespace-pre-wrap;
+}
+main blockquote {
+  @apply border-l-4 border-yuika-blue-700 pl-8 py-2 my-8;
+}
+main pre {
+  @apply bg-gray-200 text-yuika-blue-700 px-2 py-2 px-2 border border-yuika-blue-500 my-8;
+}
+
+blockquote {
+   @apply border-l-4 border-white pl-8 text-yuika-blue-500;
+}
+
 </style>
 
