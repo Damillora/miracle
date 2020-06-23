@@ -129,7 +129,7 @@ header:hover {
   @apply bg-yuika-blue-500;
 }
 .header-nav .nav-menu {
-  @apply hidden absolute right-0;
+  @apply hidden absolute right-0 bg-yuika-blue-700;
   width: 100vw;
 }
 .header-nav:hover .nav-menu {
@@ -147,6 +147,7 @@ header:hover {
   }
   .header-nav .nav-menu {
     @apply block relative w-full;
+    background-color: transparent;
   }
 }
 
