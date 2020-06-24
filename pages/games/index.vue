@@ -81,6 +81,11 @@
                       link="/games/arknights"
                       gameid="Damillora#0835"
                      />
+                    <GameListItem
+                      name="Azur Lane (EN)"
+                      link="/games/azurlane"
+                      gameid="204960914"
+                     />
                     <!--
                     <GameListItem
                       name=""
