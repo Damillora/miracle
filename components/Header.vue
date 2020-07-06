@@ -22,9 +22,9 @@
         text="game profile"
          />
       <NavItem
-        link="/sns"
+        link="/links"
         icon="contacts"
-        text="social media"
+        text="links"
          />
       <NavItem
         link="//blog.nanao.moe"
