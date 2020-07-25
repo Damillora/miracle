@@ -1,9 +1,11 @@
-import { tall } from 'tall';
-
+const fetch = require('node-fetch');
 
 export default function (context) {
-  return tall(process.env.SHORTENER_BASE+context.route.path).then(function(unshortenedUrl) {
-    if(unshortenedUrl == process.env.SHORTENER_BASE) {
+  return fetch(process.env.SHORTENER_BASE+context.route.path, {
+    redirect: 'manual',
+  }).then(function(res) {
+    var unshortenedUrl = res.headers.get('Location');
+    if(unshortenedUrl == process.env.SHORTENER_BASE+"/") {
       context.error({ statusCode: 404, message: "The page cannot be found"});
     } else {
       context.redirect(unshortenedUrl);
