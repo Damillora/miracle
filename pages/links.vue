@@ -5,12 +5,20 @@
             <p>
               <ul>
                 <li>
+                  <p>Twitter:</p>
+                  <p><a href="/twitter">Damillora</a></p>
+                </li>
+                <li>
                   <p>YouTube:</p>
                   <p><a href="/channel">Damillora</a></p>
                 </li>
                 <li>
-                  <p>Twitter:</p>
-                  <p><a href="/twitter">Damillora</a></p>
+                  <p>Twitch:</p>
+                  <p><a href="/twitch">Damillora</a></p>
+                </li>
+                <li>
+                  <p>SoundCloud:</p>
+                  <p><a href="/soundcloud">damillora</a></p>
                 </li>
                 <li>
                   <p>GitHub:</p>
