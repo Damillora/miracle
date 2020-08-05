@@ -14,22 +14,27 @@
       <NavItem
         link="/about"
         icon="person"
-        text="about"
+        text="About"
+         />
+      <NavItem
+        link="/projects"
+        icon="work"
+        text="Projects"
          />
       <NavItem
         link="/games"
         icon="videogame_asset"
-        text="game profile"
+        text="Game Profile"
          />
       <NavItem
         link="/links"
         icon="contacts"
-        text="links"
+        text="Links"
          />
       <NavItem
         link="//blog.nanao.moe"
         icon="rss_feed"
-        text="blog"
+        text="Blog"
         external="true"
          />
           </div>

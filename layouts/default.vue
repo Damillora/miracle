@@ -115,5 +115,12 @@ blockquote {
    @apply border-l-4 border-white pl-8 text-yuika-blue-500;
 }
 
+.gallery {
+    @apply flex flex-row flex-wrap items-center;
+}
+.gallery .gallery-image {
+    @apply w-full px-4 py-4;
+}
+
 </style>
 
