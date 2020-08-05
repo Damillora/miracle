@@ -1,6 +1,6 @@
-# newhomepage
+# miracle
 
-> nanao.moe homepage, but in Vue
+> The current web application that presents [nanao.moe](https://nanao.moe), my current homepage.
 
 ## Build Setup
 
