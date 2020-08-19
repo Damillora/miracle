@@ -86,6 +86,11 @@
                       link="/games/azurlane"
                       gameid="204960914"
                      />
+                    <GameListItem
+                      name="Fate/Grand Order (JP)"
+                      link="/games/fgo"
+                      gameid="744497723"
+                     />
                     <!--
                     <GameListItem
                       name=""
