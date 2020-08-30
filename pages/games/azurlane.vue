@@ -15,7 +15,7 @@ export default {
 
   },
   meta: {
-    title: "Game Profile: ",
+    title: "Game Profile: Azur Lane",
   },
 }
 </script>

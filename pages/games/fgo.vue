@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-            <h1 class="title">Game Profile: </h1>
+            <h1 class="title">Game Profile: Fate/Grand Order (JP)</h1>
             <p><a href="https://www.fate-go.jp">Game Website</a></p>
             <h2>My Game ID</h2>
             <p>Player Name: Damillora</p>
@@ -15,7 +15,7 @@ export default {
 
   },
   meta: {
-    title: "Game Profile: ",
+    title: "Game Profile: Fate/Grand Order (JP)",
   },
 }
 </script>
