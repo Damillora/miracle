@@ -8,9 +8,6 @@
                I recommend to try it sometimes, and get to the point where you can change casts in the anime. You will appreciate it.
             </blockquote>
             <p><a href="https://blog.nanao.moe/game-reviews/cue/">Read more</a></p>
-            <h2>My Game ID</h2>
-            <p>Player Name: Damillora</p>
-            <p>ID: 37132287893</p>
   </div>
 </template>
 

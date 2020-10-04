@@ -8,9 +8,6 @@
               If you like tower defenses and also like to think about tactics and strategies, this game is for you.
             </blockquote>
             <p><a href="https://blog.nanao.moe/game-reviews/arknights/">Read more</a></p>
-            <h2>My Game ID</h2>
-            <p>Player Name: Damillora</p>
-            <p>ID: Damillora#0835</p>
   </div>
 </template>
 

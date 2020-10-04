@@ -2,9 +2,6 @@
   <div class="page">
             <h1 class="title">Game Profile: Azur Lane (EN)</h1>
             <p><a href="">Game Website</a></p>
-            <h2>My Game ID</h2>
-            <p>Player Name: Damillora</p>
-            <p>ID: 204960914</p>
   </div>
 </template>
 

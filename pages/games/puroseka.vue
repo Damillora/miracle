@@ -1,13 +1,13 @@
 <template>
   <div class="page">
-            <h1 class="title">Game Profile: Love Live! School idol festival ALL STARS</h1>
-            <p><a href="https://lovelive-as.bushimo.jp/">Game Website</a></p>
-<!--
+            <h1 class="title">Game Profile: Project SEKAI COLORFUL STAGE!</h1>
+            <p><a href="https://pjsekai.sega.jp/">Game Website</a></p>
+          <!--
             <h2>My Review</h2>
             <blockquote>
             </blockquote>
             <p><a href="">Read more</a></p>
--->
+          -->
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
 
   },
   meta: {
-    title: "Game Profile: Love Live! School idol festival ALL STARS",
+    title: "Game Profile: Project SEKAI COLORFUL STAGE!",
   },
 }
 </script>

@@ -6,9 +6,6 @@
             <blockquote>
             </blockquote>
             <p><a href="">Read more</a></p>
-            <h2>My Game ID</h2>
-            <p>Player Name: </p>
-            <p>ID: </p>
   </div>
 </template>
 

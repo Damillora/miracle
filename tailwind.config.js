@@ -38,4 +38,8 @@ module.exports = {
     }
   },
   variants: ['responsive', 'group-hover', 'hover', 'active' ],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
 }
