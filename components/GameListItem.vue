@@ -1,5 +1,5 @@
 <template>
-    <div class="card project-card">
+    <div class="card game-card">
         <div class="card-content">
           <div class="card-title">
               <p class="card-caption"><nuxt-link :to="link">{{name}}</nuxt-link></p>
@@ -21,12 +21,11 @@ export default {
 </script>
 
 <style>
-.project-card {
+.game-card {
     padding: 0.25rem 1rem;
     @apply w-full flex flex-row transition duration-300 ease-in-out;
-    min-height: 6rem;
 }
-.project-card:hover {
+.game-card:hover {
     @apply bg-yuika-blue-200;
 }
 .card-caption {
