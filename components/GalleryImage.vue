@@ -51,6 +51,6 @@ export default {
    width: 400vw;
 }
 .gallery-popup-exit {
-    @apply fixed right-0 top-0 z-30 mx-8 my-4 text-2xl;
+    @apply fixed right-0 top-0 z-30 mx-8 my-4 text-2xl text-white;
 }
 </style>
