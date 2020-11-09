@@ -11,32 +11,32 @@
             <span class="h-12 w-12 px-3 py-3 text-white md:hidden material-icons" alt="menu">menu</span>
           </div>
           <div class="nav-menu">
-      <NavItem
-        link="/about"
-        icon="person"
-        text="About"
-         />
-      <NavItem
-        link="/projects"
-        icon="work"
-        text="Projects"
-         />
-      <NavItem
-        link="/games"
-        icon="videogame_asset"
-        text="Game Profile"
-         />
-      <NavItem
-        link="/links"
-        icon="contacts"
-        text="Links"
-         />
-      <NavItem
-        link="//blog.nanao.moe"
-        icon="rss_feed"
-        text="Blog"
-        external="true"
-         />
+            <NavItem
+              link="/about"
+              icon="person"
+              text="About"
+              />
+            <NavItem
+              link="/projects"
+              icon="work"
+              text="Projects"
+              />
+            <NavItem
+              link="/games"
+              icon="videogame_asset"
+              text="Game Profile"
+              />
+            <NavItem
+              link="/links"
+              icon="contacts"
+              text="Links"
+              />
+            <NavItem
+              link="//blog.nanao.moe"
+              icon="rss_feed"
+              text="Blog"
+              external="true"
+              />
           </div>
         </div>
       </header>
