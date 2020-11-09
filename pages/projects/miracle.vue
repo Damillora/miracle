@@ -37,7 +37,7 @@ export default {
     ProjectItem,
     GalleryImage
   },
-  meta: {
+  head: {
     title: "Project Portfolio",
   }
 }

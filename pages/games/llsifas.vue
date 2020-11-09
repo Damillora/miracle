@@ -17,7 +17,7 @@ export default {
   components: {
 
   },
-  meta: {
+  head: {
     title: "Game Profile: Love Live! School idol festival ALL STARS",
   },
 }

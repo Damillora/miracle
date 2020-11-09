@@ -16,7 +16,7 @@ export default {
   components: {
     ProjectItem,
   },
-  meta: {
+  head: {
     title: "Project Portfolio",
   }
 }

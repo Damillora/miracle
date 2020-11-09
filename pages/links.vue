@@ -40,7 +40,7 @@ export default {
   components: {
 
   },
-  meta: {
+  head: {
     title: 'Social Media',
   }
 }

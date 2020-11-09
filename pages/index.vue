@@ -13,7 +13,7 @@ export default {
   components: {
 
   },
-  meta: {
+  head: {
     title: 'Damillora',
   }
 }

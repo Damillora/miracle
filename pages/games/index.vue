@@ -143,7 +143,7 @@ export default {
   components: {
     GameListItem,
   },
-  meta: {
+  head: {
     title: "Game Profile",
   }
 }

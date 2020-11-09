@@ -12,7 +12,7 @@ export default {
   components: {
 
   },
-  meta: {
+  head: {
     title: 'About Damillora',
   }
 }

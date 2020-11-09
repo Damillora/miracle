@@ -11,7 +11,7 @@ export default {
   components: {
 
   },
-  meta: {
+  head: {
     title: "Game Profile: The IDOLM@STER Million Live: Theater Days",
   },
 }

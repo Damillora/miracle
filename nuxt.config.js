@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'universal',
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 14033
@@ -11,10 +10,11 @@ module.exports = {
     htmlAttrs: {
       lang: 'en',
     },
+    title: 'Damillora',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Web developer, reviewer and content creator' }
+      { hid: 'description', name: 'description', content: 'Web developer, reviewer and content creator' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -80,6 +80,6 @@ module.exports = {
 
   ],
   router: {
-    middleware: ['title']
+    middleware: []
   },
 }
