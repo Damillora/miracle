@@ -18,8 +18,11 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'prefetch', href: 'https://fonts.googleapis.com/css?family=Exo+2:300,400,500&display=swap' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Exo+2:300,400,500&display=swap' },
+      { rel: 'prefetch', href: 'https://fonts.googleapis.com/css?family=M+PLUS+1p:300,400,500&display=swap' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+1p:300,400,500&display=swap' },
+      { rel: 'prefetch', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
     ],
   },

@@ -24,11 +24,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,500&display=swap');
-
-/* material-icons */
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
 @import 'tailwindcss/base';
 
 @import 'tailwindcss/components';
