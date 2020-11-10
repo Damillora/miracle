@@ -38,12 +38,17 @@ export default {
 html {
     @apply font-sans;
 }
+.content {
+  @apply w-full;
+  padding-top: 4rem;
+}
 @screen md {
   .main {
     @apply flex flex-row; 
   }
   .content {
-    margin-left: 25vw;
+    padding-top: 0;
+    margin-left: 3.5rem;
   }
 }
 main {

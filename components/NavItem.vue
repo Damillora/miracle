@@ -1,5 +1,5 @@
 <template>
-  <div :class="getCurrentClasses()">
+  <div :class="getCurrentClasses()" @click="$emit('click')">
     <a :href="link" v-if="external">
       <i class="material-icons md-24">{{ icon }}</i>
       <p class="header-link">{{ text }}</p>
