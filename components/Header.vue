@@ -71,7 +71,7 @@ export default {
   height: 70vh;     
   background-image: url('~assets/images/bg-sm.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: right 20% center;
 }
 @screen md {
   .site-header {
