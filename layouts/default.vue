@@ -43,7 +43,7 @@ html {
   }
   .content {
     padding-top: 0;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
   }
 }
 main {

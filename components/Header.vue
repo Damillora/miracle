@@ -6,7 +6,7 @@
       <header>
         <div class="header-top">
           <a @click="menu_shown = !menu_shown" id="menushow">
-            <span class="h-12 w-12 px-3 py-3 text-white material-icons" alt="menu">menu</span>
+            <span class="h-12 w-12 px-2 py-3 text-white material-icons" alt="menu">menu</span>
           </a>
           <div class="header-title" @click="menu_shown = !menu_shown" >
             <nuxt-link to="/"><h1 class="text-lg text-white">Damillora</h1></nuxt-link>
@@ -108,7 +108,7 @@ export default {
   .site-header {
     @apply fixed;
     height: 100vh;
-    width: 3.5rem;
+    width: 4rem;
   }
   .site-header.enabled {
     width: 100vw;
@@ -155,7 +155,7 @@ header {
     @apply bg-yuika-blue-500;
 }
 #menushow {
-  @apply block cursor-pointer relative px-1 py-2 transition duration-300 ease-in-out;
+  @apply w-16 h-16 cursor-pointer relative p-2 text-center whitespace-no-wrap transition duration-300 ease-in-out;
 }
 #menushow:hover {
   @apply bg-yuika-blue-500;
@@ -170,7 +170,7 @@ header {
 @screen md {
   .header-menu .nav-menu {
     max-height: 100vh;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
     max-width: 0px;
   }
   .header-menu .nav-menu.enabled {
