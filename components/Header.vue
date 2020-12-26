@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div :class="{ 'site-header': true, 'enabled': menu_shown }">
+  <div :class="{ 'site-header': true, 'enabled': menu_shown, 'detached': detached }">
     <div :class="{ 'site-background': true, 'enabled': menu_shown }"></div>
     <div class="site-header-inner">
       <header>
@@ -62,7 +62,23 @@ export default {
   data() {
     return {
       menu_shown: false,
+      scrollY: 0,
+      originTop: 0,
+      detached: false,
     };
+  },
+  mounted() {
+    window.addEventListener('scroll', (e) => {
+      this.scrollY = Math.round(window.scrollY);
+    })
+    this.originTop = this.$el.getBoundingClientRect().top;
+  },
+  watch: {
+    scrollY(newValue) {
+      const rect = this.$el.getBoundingClientRect();
+      const newTop = this.scrollY;
+      this.detached = newTop > 64;
+    }
   },
 }
 </script>
@@ -122,6 +138,9 @@ export default {
     @apply w-full h-full  transition duration-300 ease-in-out;
 }
 .site-header.enabled .site-header-inner {
+  background: rgba(0,0,0,0.5);
+}
+.site-header.detached .site-header-inner {
   background: rgba(0,0,0,0.5);
 }
 header {
