@@ -1,19 +1,19 @@
 <template>
-<div v-click-outside="menuHide">
-  <div :class="menu_shown ? ['site-header','enabled'] : ['site-header']">
-    <div :class="menu_shown ? ['site-background','enabled'] : ['site-background']"></div>
+<div>
+  <div :class="{ 'site-header': true, 'enabled': menu_shown }">
+    <div :class="{ 'site-background': true, 'enabled': menu_shown }"></div>
     <div class="site-header-inner">
       <header>
         <div class="header-top">
           <a @click="menu_shown = !menu_shown" id="menushow">
             <span class="h-12 w-12 px-2 py-3 text-white material-icons" alt="menu">menu</span>
           </a>
-          <div class="header-title" @click="menu_shown = !menu_shown" >
+          <div class="header-title" @click="menu_shown = menu_shown ? !menu_shown : menu_shown" >
             <nuxt-link to="/"><h1 class="text-lg text-white">Damillora</h1></nuxt-link>
           </div>
         </div>
         <div class="header-menu">
-          <div :class="menu_shown ? ['nav-menu','enabled'] : ['nav-menu']">
+          <div :class="{ 'nav-menu': true, 'enabled': menu_shown }">
             <NavItem
               link="/about"
               icon="person"
@@ -69,6 +69,7 @@ export default {
 
 <style>
 .site-header {
+  z-index: 100;
   height: 4rem;
   width: 100vw;
   overflow: hidden;
@@ -85,34 +86,16 @@ export default {
   @apply transition-all duration-300 ease-in-out;
 }
 .site-background {
+  opacity: 0%;
   top: -23vh;
 }
 .site-background.enabled {
+  opacity: 100%;
   top: 0;
-}
-@screen md {
-  .site-background {
-    top: 0;
-    right: -25vw;
-  }
-  .site-background.enabled {
-    top: 0;
-    right: 0;
-  }
 }
 .site-header.enabled {
   height: 100vh;
   width: 100vw;
-}
-@screen md {
-  .site-header {
-    @apply fixed;
-    height: 100vh;
-    width: 4rem;
-  }
-  .site-header.enabled {
-    width: 100vw;
-  }
 }
 @screen sm {
     .site-background {
@@ -136,8 +119,10 @@ export default {
 }
 .site-header-inner {
     z-index: 1;
-    background: rgba(0,0,0,0.5);
-    @apply w-full h-full;
+    @apply w-full h-full  transition duration-300 ease-in-out;
+}
+.site-header.enabled .site-header-inner {
+  background: rgba(0,0,0,0.5);
 }
 header {
     @apply flex flex-col transition duration-300 ease-in-out;

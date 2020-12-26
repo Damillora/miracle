@@ -1,19 +1,24 @@
 <template>
   <div class="page">
-            <h1 class="title">Game Profile: </h1>
-            <p><a href="">Game Website</a></p>
-            <h2>My Review</h2>
-            <blockquote>
-            </blockquote>
-            <p><a href="">Read more</a></p>
+    <PageHeader>
+      <h1 class="title">Game Profile: </h1>
+      <p><a href="">Game Website</a></p>
+    </PageHeader>
+    <main class="container mx-auto main">
+      <h2>My Review</h2>
+      <blockquote>
+      </blockquote>
+      <p><a href="">Read more</a></p>
+    </main>
   </div>
 </template>
 
 <script>
+import PageHeader from "@/components/PageHeader";
 
 export default {
   components: {
-
+    PageHeader,
   },
   head: {
     title: "Game Profile: ",
