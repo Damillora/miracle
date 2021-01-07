@@ -1,6 +1,6 @@
 <template>
     <div class="relative group page-header">
-        <style>
+        <component is="style">
             :root {
                 --bg: url('{{ require('@/assets/images/'+normalImageType+'/bg.jpg') }}');
                 --bg-sm: url('{{ require('@/assets/images/'+normalImageType+'/bg-sm.jpg') }}');
@@ -9,7 +9,7 @@
                 --bg-xl: url('{{ require('@/assets/images/'+normalImageType+'/bg-xl.jpg') }}');
                 --bg-xxl: url('{{ require('@/assets/images/'+normalImageType+'/bg-xxl.jpg') }}');
             }
-        </style>
+        </component>
         <div class="h-full w-full page-header-background">
             <div class="w-full h-full opacity-50 bg-black">
             </div>
