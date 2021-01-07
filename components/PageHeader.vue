@@ -1,5 +1,15 @@
 <template>
     <div class="relative group page-header">
+        <style>
+            :root {
+                --bg: url('{{ require('@/assets/images/'+normalImageType+'/bg.jpg') }}');
+                --bg-sm: url('{{ require('@/assets/images/'+normalImageType+'/bg-sm.jpg') }}');
+                --bg-md: url('{{ require('@/assets/images/'+normalImageType+'/bg-md.jpg') }}');
+                --bg-lg: url('{{ require('@/assets/images/'+normalImageType+'/bg-lg.jpg') }}');
+                --bg-xl: url('{{ require('@/assets/images/'+normalImageType+'/bg-xl.jpg') }}');
+                --bg-xxl: url('{{ require('@/assets/images/'+normalImageType+'/bg-xxl.jpg') }}');
+            }
+        </style>
         <div class="h-full w-full page-header-background">
             <div class="w-full h-full opacity-50 bg-black">
             </div>
@@ -16,6 +26,12 @@
 
 <script>
 export default {
+  props: [ 'imageType' ],
+  computed: {
+    normalImageType() {
+      return this.imageType ?? 'yuika';
+    }
+  },
 
 }
 </script>
@@ -38,28 +54,28 @@ export default {
 }
 
 .page-header-background {
-  background-image: url('~assets/images/bg-sm.jpg');
+  background-image: var(--bg-sm);
   background-size: cover;
   background-position: right 25% top 20%;
 }
 @screen sm {
     .page-header-background {
-        background-image: url('~assets/images/bg-md.jpg');
+        background-image: var(--bg-md);
     }
 }
 @screen md {
     .page-header-background {
-        background-image: url('~assets/images/bg-lg.jpg');
+        background-image: var(--bg-lg);
     }
 }
 @screen lg {
     .page-header-background {
-        background-image: url('~assets/images/bg-xl.jpg');
+        background-image: var(--bg-xl);
     }
 }
 @screen xl {
     .page-header-background {
-        background-image: url('~assets/images/bg-xxl.jpg');
+        background-image: var(--bg-xxl);
     }
 }
 </style>

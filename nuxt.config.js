@@ -34,6 +34,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+      '@/assets/css/tailwind.css',
   ],
   env: {
     subheader: process.env.SUBHEADER || "" ,

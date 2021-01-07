@@ -96,7 +96,7 @@ export default {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-image: url('~assets/images/bg-sm.jpg');
+  background-image: url('~assets/images/yuika/bg-sm.jpg');
   background-size: cover;
   background-position: right 25% top 20%;
   @apply transition-all duration-300 ease-in-out;
@@ -115,22 +115,22 @@ export default {
 }
 @screen sm {
     .site-background {
-        background-image: url('~assets/images/bg-md.jpg');
+        background-image: url('~assets/images/yuika/bg-md.jpg');
     }
 }
 @screen md {
     .site-background {
-        background-image: url('~assets/images/bg-lg.jpg');
+        background-image: url('~assets/images/yuika/bg-lg.jpg');
     }
 }
 @screen lg {
     .site-background {
-        background-image: url('~assets/images/bg-xl.jpg');
+        background-image: url('~assets/images/yuika/bg-xl.jpg');
     }
 }
 @screen xl {
     .site-background {
-        background-image: url('~assets/images/bg-xxl.jpg');
+        background-image: url('~assets/images/yuika/bg-xxl.jpg');
     }
 }
 .site-header-inner {

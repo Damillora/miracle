@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="mei">
       <h1>Project Portfolio</h1>
     </PageHeader>
     <main class="container mx-auto main">

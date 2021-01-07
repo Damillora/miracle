@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="mei">
       <h1>nanao.moe Blog</h1>
       <p>
         <a href="https://blog.nanao.moe">live</a>

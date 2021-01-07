@@ -1,6 +1,6 @@
 
 export const state = () => ({
-  title: 'Damillora'
+  title: 'Damillora',
 })
 
 export const mutations = {
