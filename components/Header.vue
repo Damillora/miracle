@@ -159,7 +159,7 @@ header {
     @apply bg-yuika-blue-500;
 }
 #menushow {
-  @apply w-16 h-16 cursor-pointer relative p-2 text-center whitespace-no-wrap transition duration-300 ease-in-out;
+  @apply w-16 h-16 cursor-pointer relative p-2 text-center whitespace-nowrap transition duration-300 ease-in-out;
 }
 #menushow:hover {
   @apply bg-yuika-blue-500;
