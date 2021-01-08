@@ -51,6 +51,14 @@
           </li>
         </ul>
       </p>
+      <h2>Miscellanous things</h2>
+      <p>
+        <ul>
+          <li>
+            <p><a href="/favmusiclist">Damillora's Favorite Music Playlist</a></p>
+          </li>
+        </ul>
+      </p>
     </main>
   </div>
 </template>
