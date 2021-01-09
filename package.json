@@ -1,6 +1,6 @@
 {
   "name": "@damillora/miracle",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "nanao.moe homepage, but in Vue",
   "author": "Damillora",
   "private": true,

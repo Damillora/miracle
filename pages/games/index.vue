@@ -156,7 +156,4 @@ export default {
 </script>
 
 <style>
-.card-list {
-     @apply flex flex-col;
-}
 </style>

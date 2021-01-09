@@ -34,8 +34,14 @@
               />
             <NavItem
               link="/links"
-              icon="contacts"
+              icon="share"
               text="Links"
+              @click="menu_shown = !menu_shown" 
+              />
+            <NavItem
+              link="/contact"
+              icon="contacts"
+              text="Contact"
               @click="menu_shown = !menu_shown" 
               />
             <NavItem
@@ -96,7 +102,7 @@ export default {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-image: url('~assets/images/yuika/bg-sm.jpg');
+  background-image: url('~assets/images/bg/283-yuika/bg-sm.jpg');
   background-size: cover;
   background-position: right 25% top 20%;
   @apply transition-all duration-300 ease-in-out;
@@ -115,22 +121,22 @@ export default {
 }
 @screen sm {
     .site-background {
-        background-image: url('~assets/images/yuika/bg-md.jpg');
+        background-image: url('~assets/images/bg/283-yuika/bg-md.jpg');
     }
 }
 @screen md {
     .site-background {
-        background-image: url('~assets/images/yuika/bg-lg.jpg');
+        background-image: url('~assets/images/bg/283-yuika/bg-lg.jpg');
     }
 }
 @screen lg {
     .site-background {
-        background-image: url('~assets/images/yuika/bg-xl.jpg');
+        background-image: url('~assets/images/bg/283-yuika/bg-xl.jpg');
     }
 }
 @screen xl {
     .site-background {
-        background-image: url('~assets/images/yuika/bg-xxl.jpg');
+        background-image: url('~assets/images/bg/283-yuika/bg-xxl.jpg');
     }
 }
 .site-header-inner {

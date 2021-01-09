@@ -2,12 +2,12 @@
     <div class="relative group page-header">
         <component is="style">
             :root {
-                --bg: url('{{ require('@/assets/images/'+normalImageType+'/bg.jpg') }}');
-                --bg-sm: url('{{ require('@/assets/images/'+normalImageType+'/bg-sm.jpg') }}');
-                --bg-md: url('{{ require('@/assets/images/'+normalImageType+'/bg-md.jpg') }}');
-                --bg-lg: url('{{ require('@/assets/images/'+normalImageType+'/bg-lg.jpg') }}');
-                --bg-xl: url('{{ require('@/assets/images/'+normalImageType+'/bg-xl.jpg') }}');
-                --bg-xxl: url('{{ require('@/assets/images/'+normalImageType+'/bg-xxl.jpg') }}');
+                --bg: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg.jpg') }}');
+                --bg-sm: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-sm.jpg') }}');
+                --bg-md: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-md.jpg') }}');
+                --bg-lg: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-lg.jpg') }}');
+                --bg-xl: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-xl.jpg') }}');
+                --bg-xxl: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-xxl.jpg') }}');
             }
         </component>
         <div class="h-full w-full page-header-background">
@@ -29,7 +29,7 @@ export default {
   props: [ 'imageType' ],
   computed: {
     normalImageType() {
-      return this.imageType ?? 'yuika';
+      return this.imageType ?? '283-yuika';
     }
   },
 

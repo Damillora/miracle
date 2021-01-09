@@ -89,3 +89,7 @@ blockquote {
 .gallery .gallery-image {
     @apply w-full px-4 py-4;
 }
+
+.card-list {
+  @apply flex flex-col;
+}

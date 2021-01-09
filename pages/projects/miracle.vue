@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader imageType="mei">
+    <PageHeader imageType="cue-mei">
       <h1>nanao.moe</h1>
       <p>
         <a href="https://nanao.moe">live</a>
