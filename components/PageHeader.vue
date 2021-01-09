@@ -41,6 +41,8 @@ export default {
                 return 'center top';
             case '765-yuriko':
                 return 'right 15% top 10%';
+            case '765-yuriko2':
+                return 'right 35% top 30%';
             default:
                 return 'center';
         }

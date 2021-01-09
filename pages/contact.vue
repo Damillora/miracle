@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="765-yuriko2">
       <h1>Contact</h1>
     </PageHeader>
     <main class="container mx-auto main">
