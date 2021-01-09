@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: CUE!</h1>
       <p><a href="https://www.cue-liber.jp/">Game Website</a></p>
     </PageHeader>

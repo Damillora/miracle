@@ -2,7 +2,7 @@
     <div class="relative group page-header">
         <component is="style">
             :root {
-                --bg: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg.jpg') }}');
+                --bg-ps: {{ positioning }};
                 --bg-sm: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-sm.jpg') }}');
                 --bg-md: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-md.jpg') }}');
                 --bg-lg: url('{{ require('@/assets/images/bg/'+normalImageType+'/bg-lg.jpg') }}');
@@ -30,6 +30,20 @@ export default {
   computed: {
     normalImageType() {
       return this.imageType ?? '283-yuika';
+    },
+    positioning() {
+        switch(this.normalImageType) {
+            case '283-yuika':
+                return 'right 25% top 20%';
+            case 'cue-mei':
+                return 'center top';
+            case 'cue-mei2':
+                return 'center top';
+            case '765-yuriko':
+                return 'right 15% top 10%';
+            default:
+                return 'center';
+        }
     }
   },
 
@@ -56,7 +70,7 @@ export default {
 .page-header-background {
   background-image: var(--bg-sm);
   background-size: cover;
-  background-position: right 25% top 20%;
+  background-position: var(--bg-ps);
 }
 @screen sm {
     .page-header-background {

@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: Honkai Impact 3rd</h1>
       <p><a href="https://honkaiimpact3.mihoyo.com">Game Website</a></p>
     </PageHeader>

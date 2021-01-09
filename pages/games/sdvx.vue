@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: SOUND VOLTEX VIVID WAVE</h1>
       <p><a href="https://p.eagate.573.jp/game/sdvx/v/p/index.html">Game Website</a></p>
     </PageHeader>

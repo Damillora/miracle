@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: Arknights</h1>
       <p><a href="https://www.arknights.global">Game Website</a></p>
     </PageHeader>

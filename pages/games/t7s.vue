@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: Tokyo 7th Sisters</h1>
       <p><a href="https://t7s.jp">Game Website</a></p>
     </PageHeader>

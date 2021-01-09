@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: maimai DX</h1>
       <p><a href="https://maimai.sega.com/">Game Website</a></p>
     </PageHeader>

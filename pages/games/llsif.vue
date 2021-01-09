@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader>
+    <PageHeader imageType="cue-mei2">
       <h1 class="title">Game Profile: Love Live! School Idol Festival (JP)</h1>
       <p><a href="https://lovelive-sif.bushimo.jp/">Game Website</a></p>
     </PageHeader>
