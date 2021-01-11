@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader imageType="cue-mei2">
+    <PageHeader imageType="765-yuriko">
       <h1 class="title">Game Profile: The IDOLM@STER Million Live: Theater Days</h1>
       <p><a href="https://millionlive.idolmaster.jp/theaterdays/">Game Website</a></p>
     </PageHeader>
