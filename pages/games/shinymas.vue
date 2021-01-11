@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <PageHeader imageType="cue-mei2">
+    <PageHeader imageType="283-yuika">
       <h1 class="title">Game Profile: THE IDOLM@STER: Shiny Colors</h1>
       <p><a href="https://shinycolors.idolmaster.jp">Game Website</a></p>
     </PageHeader>

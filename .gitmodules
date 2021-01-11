@@ -1,0 +1,3 @@
+[submodule "assets/images/bg"]
+	path = assets/images/bg
+	url = git@ssh.git.nanao.moe:Damillora/nanaomoe-bg.git
