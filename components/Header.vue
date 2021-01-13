@@ -91,7 +91,7 @@ export default {
 
 <style>
 .site-header {
-  z-index: 100;
+  z-index: 10;
   height: 4rem;
   width: 100vw;
   overflow: hidden;

@@ -1,8 +1,8 @@
 <template>
   <div class="gallery-image">
     <img :src='src' @click="shown = !shown">
-    <div :class="shown ? 'gallery-popup' : 'gallery-popup-hidden'" @click.self="shown = !shown" @mousemove="calculate">
-      <img :src='src' @click="zoom" :class="zoom_status" :style="{left: cursor_x, top: cursor_y }" draggable="false">
+    <div :class="shown ? 'gallery-popup' : 'gallery-popup-hidden'" @click.self="shown = !shown">
+      <img :src='src' @click="open"  draggable="false">
       <a class="gallery-popup-exit" @click="shown = !shown" href="#">x</a>
     </div>
   </div>
@@ -14,23 +14,12 @@ export default {
     data() {
       return {
         shown: false,
-        zoom_status: 'gallery-zoomed-out',
-        cursor_x: 300,
-        cursor_y: 300,
       };
     },
     methods: {
-      zoom() {
-        if(this.zoom_status == 'gallery-zoomed-out') {
-          this.zoom_status = 'gallery-zoomed-in';
-        } else {
-          this.zoom_status = 'gallery-zoomed-out';
-        }
+      open() {
+        window.open(this.src,"_blank");
       },
-      calculate(e) {
-        this.cursor_x = ((e.clientX)-(window.innerWidth/2))*2+'px';
-        this.cursor_y = ((e.clientY)-(window.innerHeight/2))*2+'px';
-      }
     },
 }
 </script>
@@ -50,7 +39,7 @@ export default {
    @apply fixed;
    width: 400vw;
 }
-.gallery-popup-exit {
-    @apply fixed right-0 top-0 z-30 mx-8 my-4 text-2xl text-white;
+a.gallery-popup-exit {
+    @apply fixed right-0 top-0 mx-8 my-4 text-2xl text-white;
 }
 </style>

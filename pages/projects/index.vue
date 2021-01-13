@@ -8,6 +8,7 @@
       <div class="card-list">
           <ProjectItem name="nanao.moe" codename="miracle" description="The home page for my online identity." />
           <ProjectItem name="nanao.moe Blog" codename="yuika" description="The blog for my hobbies" />
+          <ProjectItem name="Altessimo" codename="altessimo" description="Web database of Idolmaster composers" />
       </div>
     </main>
   </div>
