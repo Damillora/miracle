@@ -128,10 +128,17 @@
                 playername="Damillora"
                 gameid="804547223"
                 />
+              <GameListItem
+                name="ARGONAVIS from BanG Dream! AAside"
+                link="/games/aaside"
+                playername="Damilora"
+                gameid="3BUWJibt"
+                />
               <!--
               <GameListItem
                 name=""
                 link=""
+                playername=""
                 gameid=""
                 />
               -->
